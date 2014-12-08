@@ -6,7 +6,7 @@ export PATH=$PATH:/bin
 export PATH=$PATH:/usr/sbin
 
 #Bin in user folder
-expoer PATH=/Users/Michael/bin:$PATH
+export PATH=/Users/Michael/bin:$PATH
 
 #For brew installed coreutils
 # export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
