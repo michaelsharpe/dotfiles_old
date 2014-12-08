@@ -8,9 +8,10 @@ alias -- -="cd -"
 
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
+alias gd="cd ~/Google\ Drive/"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias w="cd ~/workspace"
 alias g="git"
 alias h="history"
 alias j="jobs"

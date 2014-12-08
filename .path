@@ -1,0 +1,9 @@
+#System defaults
+export PATH=/user/local/bin
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/bin
+export PATH=$PATH:/bin
+export PATH=$PATH:/usr/sbin
+
+#For brew installed coreutils
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
