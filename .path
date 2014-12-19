@@ -1,14 +1,4 @@
-#System defaults
-# export PATH="/user/local/bin"
-# export PATH="$PATH:/usr/local/sbin"
-# export PATH="$PATH:/usr/bin"
-# export PATH="$PATH:/bin"
-# export PATH="$PATH:/usr/sbin"
-export PATH="$PATH:/testtestest"
-
-
-#Bin in user folder
-# export PATH=/Users/Michael/bin:$PATH
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 #For brew installed coreutils
-# export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH

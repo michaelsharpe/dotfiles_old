@@ -44,8 +44,11 @@ brew install wget --with-iri
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
 
+#Install DB's
+brew install mysql
+brew install redis
+brew install postgresql
 
 # Install other useful binaries.
 brew install ack
@@ -55,7 +58,7 @@ brew install imagemagick --with-webp
 brew install tree
 
 #Install brew cask for downloading apps
-brew install cask
+brew install caskroom/cask/brew-cask
 
 #Install all cask apps from cash script
 sh cask.sh

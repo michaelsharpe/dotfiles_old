@@ -1,10 +1,13 @@
 # Add `~/bin` to the `$PATH`
 export PATH=/usr/local/bin:$PATH
 
+# Set Z.sh
+. ~/bin/z.sh
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path, extra,bash_prompt,exports,aliases,functions}; do
+for file in ~/.{pathh,extra,bash_prompt,exports,aliases,functions}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
