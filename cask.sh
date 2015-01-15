@@ -20,6 +20,9 @@ brew cask install onepassword
 brew cask install cheatsheet
 brew cask install utorrent
 brew cask install easysimbl
+brew cask install skype
+brew cask install wacom-tablet
+brew cask install hipchat
 
 #Install web related apps
 brew cask install google-chrome
