@@ -20,3 +20,6 @@ export MANPAGER="less -X";
 
 # Always enable colored `grep` output
 export GREP_OPTIONS="--color=auto";
+
+#Fix for karma runner to access cask installed firefox
+export FIREFOX_BIN="/opt/homebrew-cask/Caskroom/firefox/latest/Firefox.app/Contents/MacOS/firefox-bin"
