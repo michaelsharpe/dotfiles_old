@@ -23,6 +23,7 @@ brew cask install easysimbl
 brew cask install skype
 brew cask install wacom-tablet
 brew cask install hipchat
+brew cask install flash-player
 
 #Install web related apps
 brew cask install google-chrome
