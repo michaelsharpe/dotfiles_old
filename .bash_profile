@@ -53,3 +53,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Add gulp autocompletion
 eval "$(gulp --completion=bash)"
 
+# Change default folder for Cask
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
