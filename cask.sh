@@ -43,6 +43,7 @@ brew cask install virtualbox
 brew cask install transmission
 brew cask install heroku-toolbelt
 brew cask install vagrant
+brew cask install chefdk
 
 #Graphics apps
 # brew cask install inkscape
