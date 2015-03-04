@@ -42,6 +42,7 @@ brew cask install sourcetree
 brew cask install virtualbox
 brew cask install transmission
 brew cask install heroku-toolbelt
+brew cask install vagrant
 
 #Graphics apps
 # brew cask install inkscape
