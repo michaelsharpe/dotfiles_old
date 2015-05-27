@@ -35,7 +35,8 @@ brew cask install firefox
 brew cask install java
 brew cask install iterm2
 brew cask install macvim
-brew cask install sublime-text
+# brew cask install sublime-text
+brew cask install atom
 brew cask install webstorm
 brew cask install limechat
 brew cask install sourcetree
